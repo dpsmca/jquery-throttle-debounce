@@ -1,0 +1,24 @@
+{
+  "name": "jquery-debounce-plugin",
+  "version": "1.2.0",
+  "description": "Adds throttle and debounce functionality to jQuery",
+  "main": "src/jquery-debounce-plugin.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dist": "gulp",
+    "dev": "gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "gulp && git add -A dist",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-dpsmca:dpsmca/jquery-throttle-debounce.git"
+  },
+  "author": "dpsmca",
+  "license": "ISC"
+}
